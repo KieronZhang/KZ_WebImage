@@ -1,0 +1,16 @@
+use_frameworks!
+
+target 'KZ_WebImage_iOS' do
+    
+    platform :ios, '8.0'
+    pod 'KZ_Categories'
+    pod 'SDWebImage'
+    
+end
+
+target 'KZ_WebImage_macOS' do
+    
+    platform :osx, '10.10'
+    pod 'SDWebImage'
+    
+end
