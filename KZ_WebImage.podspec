@@ -21,6 +21,4 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = 'KZ_WebImage/KZ_WebImage_iOS.framework'
     s.osx.vendored_frameworks = 'KZ_WebImage/KZ_WebImage_macOS.framework'
 
-    s.dependency 'SDWebImage'
-
 end
