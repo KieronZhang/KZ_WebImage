@@ -2,7 +2,7 @@
 //  KZ_WebImage_iOS_Framework.h
 //  KZ_WebImage_iOS_Framework
 //
-//  Created by Kieron Zhang on 2018/5/3.
+//  Created by Kieron Zhang on 2018/5/7.
 //  Copyright © 2018年 Kieron Zhang. All rights reserved.
 //
 

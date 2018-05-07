@@ -7,184 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C63537E5B248D4B66983F08 /* Pods_KZ_WebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C58E9D63B4CC6817FA8BE5 /* Pods_KZ_WebImage_macOS.framework */; };
-		AEC620B3209C1D1600DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC620B2209C1D1600DFC8B9 /* AppDelegate.m */; };
-		AEC620B6209C1D1600DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC620B5209C1D1600DFC8B9 /* ViewController.m */; };
-		AEC620B9209C1D1600DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC620B7209C1D1600DFC8B9 /* Main.storyboard */; };
-		AEC620BB209C1D1600DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC620BA209C1D1600DFC8B9 /* Assets.xcassets */; };
-		AEC620BE209C1D1600DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC620BC209C1D1600DFC8B9 /* LaunchScreen.storyboard */; };
-		AEC620C1209C1D1600DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC620C0209C1D1600DFC8B9 /* main.m */; };
-		AEC620CD209C1D2000DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC620CC209C1D2000DFC8B9 /* AppDelegate.m */; };
-		AEC620D0209C1D2000DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC620CF209C1D2000DFC8B9 /* ViewController.m */; };
-		AEC620D2209C1D2100DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC620D1209C1D2100DFC8B9 /* Assets.xcassets */; };
-		AEC620D5209C1D2100DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC620D3209C1D2100DFC8B9 /* Main.storyboard */; };
-		AEC620D8209C1D2100DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC620D7209C1D2100DFC8B9 /* main.m */; };
-		AEC620DF209C1D8E00DFC8B9 /* KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC620DE209C1D8E00DFC8B9 /* KZ_WebImage_iOS.framework */; };
-		AEC620E2209C1D9500DFC8B9 /* KZ_WebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC620E1209C1D9500DFC8B9 /* KZ_WebImage_macOS.framework */; };
-		AEC620E4209C1E5C00DFC8B9 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC620E3209C1E5C00DFC8B9 /* niconiconi@2x.gif */; };
-		AEC620E6209C1E6500DFC8B9 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC620E5209C1E6500DFC8B9 /* niconiconi@2x.gif */; };
-		BA6E56CD1B1FB8617A753135 /* Pods_KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D6476FB81CD98372E4EF66 /* Pods_KZ_WebImage_iOS.framework */; };
+		2B4433A68D74D59F8EA94968 /* Pods_KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2728EC67B00B29B11180918 /* Pods_KZ_WebImage_iOS.framework */; };
+		AEC6278B20A009AA00DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6278A20A009AA00DFC8B9 /* AppDelegate.m */; };
+		AEC6278E20A009AA00DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6278D20A009AA00DFC8B9 /* ViewController.m */; };
+		AEC6279120A009AA00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC6278F20A009AA00DFC8B9 /* Main.storyboard */; };
+		AEC6279320A009AA00DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC6279220A009AA00DFC8B9 /* Assets.xcassets */; };
+		AEC6279620A009AA00DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC6279420A009AA00DFC8B9 /* LaunchScreen.storyboard */; };
+		AEC6279920A009AA00DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6279820A009AA00DFC8B9 /* main.m */; };
+		AEC627A520A009B500DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC627A420A009B500DFC8B9 /* AppDelegate.m */; };
+		AEC627A820A009B500DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC627A720A009B500DFC8B9 /* ViewController.m */; };
+		AEC627AA20A009B600DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC627A920A009B600DFC8B9 /* Assets.xcassets */; };
+		AEC627AD20A009B600DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC627AB20A009B600DFC8B9 /* Main.storyboard */; };
+		AEC627B020A009B600DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC627AF20A009B600DFC8B9 /* main.m */; };
+		AEC627B720A00ABB00DFC8B9 /* KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC627B620A00ABB00DFC8B9 /* KZ_WebImage_iOS.framework */; };
+		AEC627BA20A00AC200DFC8B9 /* KZ_WebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC627B920A00AC100DFC8B9 /* KZ_WebImage_macOS.framework */; };
+		AEC627BC20A00AC800DFC8B9 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC627BB20A00AC700DFC8B9 /* niconiconi@2x.gif */; };
+		AEC627BE20A00ACD00DFC8B9 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC627BD20A00ACD00DFC8B9 /* niconiconi@2x.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4026020AB94226787BA9B8E7 /* Pods-KZ_WebImage_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_macOS/Pods-KZ_WebImage_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		7D963F4CE49DFAE5ACC6B493 /* Pods-KZ_WebImage_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_macOS/Pods-KZ_WebImage_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		8750E95EB0078C0621C7F7EF /* Pods-KZ_WebImage_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A3C58E9D63B4CC6817FA8BE5 /* Pods_KZ_WebImage_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_WebImage_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD88D7C71E9C7E2194EDAC29 /* Pods-KZ_WebImage_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		AEC620AF209C1D1600DFC8B9 /* KZ_WebImage_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_WebImage_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEC620B1209C1D1600DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEC620B2209C1D1600DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEC620B4209C1D1600DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEC620B5209C1D1600DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEC620B8209C1D1600DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEC620BA209C1D1600DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEC620BD209C1D1600DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AEC620BF209C1D1600DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEC620C0209C1D1600DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC620C9209C1D2000DFC8B9 /* KZ_WebImage_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_WebImage_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEC620CB209C1D2000DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEC620CC209C1D2000DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEC620CE209C1D2000DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEC620CF209C1D2000DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEC620D1209C1D2100DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEC620D4209C1D2100DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEC620D6209C1D2100DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEC620D7209C1D2100DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC620D9209C1D2100DFC8B9 /* KZ_WebImage_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_WebImage_macOS.entitlements; sourceTree = "<group>"; };
-		AEC620DE209C1D8E00DFC8B9 /* KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_iOS.framework; sourceTree = "<group>"; };
-		AEC620E1209C1D9500DFC8B9 /* KZ_WebImage_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_macOS.framework; sourceTree = "<group>"; };
-		AEC620E3209C1E5C00DFC8B9 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
-		AEC620E5209C1E6500DFC8B9 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
-		E4D6476FB81CD98372E4EF66 /* Pods_KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_WebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B19B656286FB08B4F45B85 /* Pods-KZ_WebImage_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AEC6278720A009AA00DFC8B9 /* KZ_WebImage_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_WebImage_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC6278920A009AA00DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC6278A20A009AA00DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC6278C20A009AA00DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC6278D20A009AA00DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC6279020A009AA00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC6279220A009AA00DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC6279520A009AA00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC6279720A009AA00DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC6279820A009AA00DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC627A120A009B500DFC8B9 /* KZ_WebImage_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_WebImage_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC627A320A009B500DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC627A420A009B500DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC627A620A009B500DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC627A720A009B500DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC627A920A009B600DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC627AC20A009B600DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC627AE20A009B600DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC627AF20A009B600DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC627B120A009B600DFC8B9 /* KZ_WebImage_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_WebImage_macOS.entitlements; sourceTree = "<group>"; };
+		AEC627B620A00ABB00DFC8B9 /* KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_iOS.framework; sourceTree = "<group>"; };
+		AEC627B920A00AC100DFC8B9 /* KZ_WebImage_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_macOS.framework; sourceTree = "<group>"; };
+		AEC627BB20A00AC700DFC8B9 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
+		AEC627BD20A00ACD00DFC8B9 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
+		D2728EC67B00B29B11180918 /* Pods_KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_WebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71E1FD8092DB1122C60B174 /* Pods-KZ_WebImage_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AEC620AC209C1D1600DFC8B9 /* Frameworks */ = {
+		AEC6278420A009AA00DFC8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC620DF209C1D8E00DFC8B9 /* KZ_WebImage_iOS.framework in Frameworks */,
-				BA6E56CD1B1FB8617A753135 /* Pods_KZ_WebImage_iOS.framework in Frameworks */,
+				AEC627B720A00ABB00DFC8B9 /* KZ_WebImage_iOS.framework in Frameworks */,
+				2B4433A68D74D59F8EA94968 /* Pods_KZ_WebImage_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEC620C6209C1D2000DFC8B9 /* Frameworks */ = {
+		AEC6279E20A009B500DFC8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC620E2209C1D9500DFC8B9 /* KZ_WebImage_macOS.framework in Frameworks */,
-				0C63537E5B248D4B66983F08 /* Pods_KZ_WebImage_macOS.framework in Frameworks */,
+				AEC627BA20A00AC200DFC8B9 /* KZ_WebImage_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2319B9077662E2A54BC7A60C /* Frameworks */ = {
+		2EB40602681D4E836BE48914 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E4D6476FB81CD98372E4EF66 /* Pods_KZ_WebImage_iOS.framework */,
-				A3C58E9D63B4CC6817FA8BE5 /* Pods_KZ_WebImage_macOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		87060C74FED35831DCBB764F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8750E95EB0078C0621C7F7EF /* Pods-KZ_WebImage_iOS.debug.xcconfig */,
-				AD88D7C71E9C7E2194EDAC29 /* Pods-KZ_WebImage_iOS.release.xcconfig */,
-				4026020AB94226787BA9B8E7 /* Pods-KZ_WebImage_macOS.debug.xcconfig */,
-				7D963F4CE49DFAE5ACC6B493 /* Pods-KZ_WebImage_macOS.release.xcconfig */,
+				31B19B656286FB08B4F45B85 /* Pods-KZ_WebImage_iOS.debug.xcconfig */,
+				E71E1FD8092DB1122C60B174 /* Pods-KZ_WebImage_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AEC62089209C1CE600DFC8B9 = {
+		AEC6276120A009A000DFC8B9 = {
 			isa = PBXGroup;
 			children = (
-				AEC620B0209C1D1600DFC8B9 /* KZ_WebImage_iOS */,
-				AEC620CA209C1D2000DFC8B9 /* KZ_WebImage_macOS */,
-				AEC62093209C1CE600DFC8B9 /* Products */,
-				87060C74FED35831DCBB764F /* Pods */,
-				2319B9077662E2A54BC7A60C /* Frameworks */,
+				AEC6278820A009AA00DFC8B9 /* KZ_WebImage_iOS */,
+				AEC627A220A009B500DFC8B9 /* KZ_WebImage_macOS */,
+				AEC6276B20A009A000DFC8B9 /* Products */,
+				2EB40602681D4E836BE48914 /* Pods */,
+				EB06BB01D6517FEDDAE5CD27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		AEC62093209C1CE600DFC8B9 /* Products */ = {
+		AEC6276B20A009A000DFC8B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEC620AF209C1D1600DFC8B9 /* KZ_WebImage_iOS.app */,
-				AEC620C9209C1D2000DFC8B9 /* KZ_WebImage_macOS.app */,
+				AEC6278720A009AA00DFC8B9 /* KZ_WebImage_iOS.app */,
+				AEC627A120A009B500DFC8B9 /* KZ_WebImage_macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AEC620B0209C1D1600DFC8B9 /* KZ_WebImage_iOS */ = {
+		AEC6278820A009AA00DFC8B9 /* KZ_WebImage_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AEC620B1209C1D1600DFC8B9 /* AppDelegate.h */,
-				AEC620B2209C1D1600DFC8B9 /* AppDelegate.m */,
-				AEC620B4209C1D1600DFC8B9 /* ViewController.h */,
-				AEC620B5209C1D1600DFC8B9 /* ViewController.m */,
-				AEC620E3209C1E5C00DFC8B9 /* niconiconi@2x.gif */,
-				AEC620DD209C1D8E00DFC8B9 /* WebImage */,
-				AEC620B7209C1D1600DFC8B9 /* Main.storyboard */,
-				AEC620BA209C1D1600DFC8B9 /* Assets.xcassets */,
-				AEC620BC209C1D1600DFC8B9 /* LaunchScreen.storyboard */,
-				AEC620BF209C1D1600DFC8B9 /* Info.plist */,
-				AEC620C0209C1D1600DFC8B9 /* main.m */,
+				AEC6278920A009AA00DFC8B9 /* AppDelegate.h */,
+				AEC6278A20A009AA00DFC8B9 /* AppDelegate.m */,
+				AEC6278C20A009AA00DFC8B9 /* ViewController.h */,
+				AEC6278D20A009AA00DFC8B9 /* ViewController.m */,
+				AEC627BB20A00AC700DFC8B9 /* niconiconi@2x.gif */,
+				AEC627B520A00ABB00DFC8B9 /* WebImage */,
+				AEC6278F20A009AA00DFC8B9 /* Main.storyboard */,
+				AEC6279220A009AA00DFC8B9 /* Assets.xcassets */,
+				AEC6279420A009AA00DFC8B9 /* LaunchScreen.storyboard */,
+				AEC6279720A009AA00DFC8B9 /* Info.plist */,
+				AEC6279820A009AA00DFC8B9 /* main.m */,
 			);
 			path = KZ_WebImage_iOS;
 			sourceTree = "<group>";
 		};
-		AEC620CA209C1D2000DFC8B9 /* KZ_WebImage_macOS */ = {
+		AEC627A220A009B500DFC8B9 /* KZ_WebImage_macOS */ = {
 			isa = PBXGroup;
 			children = (
-				AEC620CB209C1D2000DFC8B9 /* AppDelegate.h */,
-				AEC620CC209C1D2000DFC8B9 /* AppDelegate.m */,
-				AEC620CE209C1D2000DFC8B9 /* ViewController.h */,
-				AEC620CF209C1D2000DFC8B9 /* ViewController.m */,
-				AEC620E5209C1E6500DFC8B9 /* niconiconi@2x.gif */,
-				AEC620E0209C1D9500DFC8B9 /* WebImage */,
-				AEC620D1209C1D2100DFC8B9 /* Assets.xcassets */,
-				AEC620D3209C1D2100DFC8B9 /* Main.storyboard */,
-				AEC620D6209C1D2100DFC8B9 /* Info.plist */,
-				AEC620D7209C1D2100DFC8B9 /* main.m */,
-				AEC620D9209C1D2100DFC8B9 /* KZ_WebImage_macOS.entitlements */,
+				AEC627A320A009B500DFC8B9 /* AppDelegate.h */,
+				AEC627A420A009B500DFC8B9 /* AppDelegate.m */,
+				AEC627A620A009B500DFC8B9 /* ViewController.h */,
+				AEC627A720A009B500DFC8B9 /* ViewController.m */,
+				AEC627BD20A00ACD00DFC8B9 /* niconiconi@2x.gif */,
+				AEC627B820A00AC100DFC8B9 /* WebImage */,
+				AEC627A920A009B600DFC8B9 /* Assets.xcassets */,
+				AEC627AB20A009B600DFC8B9 /* Main.storyboard */,
+				AEC627AE20A009B600DFC8B9 /* Info.plist */,
+				AEC627AF20A009B600DFC8B9 /* main.m */,
+				AEC627B120A009B600DFC8B9 /* KZ_WebImage_macOS.entitlements */,
 			);
 			path = KZ_WebImage_macOS;
 			sourceTree = "<group>";
 		};
-		AEC620DD209C1D8E00DFC8B9 /* WebImage */ = {
+		AEC627B520A00ABB00DFC8B9 /* WebImage */ = {
 			isa = PBXGroup;
 			children = (
-				AEC620DE209C1D8E00DFC8B9 /* KZ_WebImage_iOS.framework */,
+				AEC627B620A00ABB00DFC8B9 /* KZ_WebImage_iOS.framework */,
 			);
 			path = WebImage;
 			sourceTree = "<group>";
 		};
-		AEC620E0209C1D9500DFC8B9 /* WebImage */ = {
+		AEC627B820A00AC100DFC8B9 /* WebImage */ = {
 			isa = PBXGroup;
 			children = (
-				AEC620E1209C1D9500DFC8B9 /* KZ_WebImage_macOS.framework */,
+				AEC627B920A00AC100DFC8B9 /* KZ_WebImage_macOS.framework */,
 			);
 			path = WebImage;
+			sourceTree = "<group>";
+		};
+		EB06BB01D6517FEDDAE5CD27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2728EC67B00B29B11180918 /* Pods_KZ_WebImage_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEC620AE209C1D1600DFC8B9 /* KZ_WebImage_iOS */ = {
+		AEC6278620A009AA00DFC8B9 /* KZ_WebImage_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEC620C4209C1D1600DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_iOS" */;
+			buildConfigurationList = AEC6279A20A009AA00DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_iOS" */;
 			buildPhases = (
-				44D80D0C56AE41793C263C21 /* [CP] Check Pods Manifest.lock */,
-				AEC620AB209C1D1600DFC8B9 /* Sources */,
-				AEC620AC209C1D1600DFC8B9 /* Frameworks */,
-				AEC620AD209C1D1600DFC8B9 /* Resources */,
-				036DFACFD2FC2B3C9533E55D /* [CP] Embed Pods Frameworks */,
+				F19FDF4E4878180666FDC26E /* [CP] Check Pods Manifest.lock */,
+				AEC6278320A009AA00DFC8B9 /* Sources */,
+				AEC6278420A009AA00DFC8B9 /* Frameworks */,
+				AEC6278520A009AA00DFC8B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -192,18 +183,16 @@
 			);
 			name = KZ_WebImage_iOS;
 			productName = KZ_WebImage_iOS;
-			productReference = AEC620AF209C1D1600DFC8B9 /* KZ_WebImage_iOS.app */;
+			productReference = AEC6278720A009AA00DFC8B9 /* KZ_WebImage_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AEC620C8209C1D2000DFC8B9 /* KZ_WebImage_macOS */ = {
+		AEC627A020A009B500DFC8B9 /* KZ_WebImage_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEC620DA209C1D2100DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_macOS" */;
+			buildConfigurationList = AEC627B220A009B600DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_macOS" */;
 			buildPhases = (
-				2A39BE2E253C0AC8A09238F2 /* [CP] Check Pods Manifest.lock */,
-				AEC620C5209C1D2000DFC8B9 /* Sources */,
-				AEC620C6209C1D2000DFC8B9 /* Frameworks */,
-				AEC620C7209C1D2000DFC8B9 /* Resources */,
-				C7C2B25507DBFFF5EAAB8382 /* [CP] Embed Pods Frameworks */,
+				AEC6279D20A009B500DFC8B9 /* Sources */,
+				AEC6279E20A009B500DFC8B9 /* Frameworks */,
+				AEC6279F20A009B500DFC8B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -211,22 +200,22 @@
 			);
 			name = KZ_WebImage_macOS;
 			productName = KZ_WebImage_macOS;
-			productReference = AEC620C9209C1D2000DFC8B9 /* KZ_WebImage_macOS.app */;
+			productReference = AEC627A120A009B500DFC8B9 /* KZ_WebImage_macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AEC6208A209C1CE600DFC8B9 /* Project object */ = {
+		AEC6276220A009A000DFC8B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AEC620AE209C1D1600DFC8B9 = {
+					AEC6278620A009AA00DFC8B9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					AEC620C8209C1D2000DFC8B9 = {
+					AEC627A020A009B500DFC8B9 = {
 						CreatedOnToolsVersion = 9.3;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -236,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEC6208D209C1CE600DFC8B9 /* Build configuration list for PBXProject "KZ_WebImage" */;
+			buildConfigurationList = AEC6276520A009A000DFC8B9 /* Build configuration list for PBXProject "KZ_WebImage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,79 +233,43 @@
 				en,
 				Base,
 			);
-			mainGroup = AEC62089209C1CE600DFC8B9;
-			productRefGroup = AEC62093209C1CE600DFC8B9 /* Products */;
+			mainGroup = AEC6276120A009A000DFC8B9;
+			productRefGroup = AEC6276B20A009A000DFC8B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEC620AE209C1D1600DFC8B9 /* KZ_WebImage_iOS */,
-				AEC620C8209C1D2000DFC8B9 /* KZ_WebImage_macOS */,
+				AEC6278620A009AA00DFC8B9 /* KZ_WebImage_iOS */,
+				AEC627A020A009B500DFC8B9 /* KZ_WebImage_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AEC620AD209C1D1600DFC8B9 /* Resources */ = {
+		AEC6278520A009AA00DFC8B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC620E4209C1E5C00DFC8B9 /* niconiconi@2x.gif in Resources */,
-				AEC620BE209C1D1600DFC8B9 /* LaunchScreen.storyboard in Resources */,
-				AEC620BB209C1D1600DFC8B9 /* Assets.xcassets in Resources */,
-				AEC620B9209C1D1600DFC8B9 /* Main.storyboard in Resources */,
+				AEC627BC20A00AC800DFC8B9 /* niconiconi@2x.gif in Resources */,
+				AEC6279620A009AA00DFC8B9 /* LaunchScreen.storyboard in Resources */,
+				AEC6279320A009AA00DFC8B9 /* Assets.xcassets in Resources */,
+				AEC6279120A009AA00DFC8B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEC620C7209C1D2000DFC8B9 /* Resources */ = {
+		AEC6279F20A009B500DFC8B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC620D2209C1D2100DFC8B9 /* Assets.xcassets in Resources */,
-				AEC620D5209C1D2100DFC8B9 /* Main.storyboard in Resources */,
-				AEC620E6209C1E6500DFC8B9 /* niconiconi@2x.gif in Resources */,
+				AEC627AA20A009B600DFC8B9 /* Assets.xcassets in Resources */,
+				AEC627AD20A009B600DFC8B9 /* Main.storyboard in Resources */,
+				AEC627BE20A00ACD00DFC8B9 /* niconiconi@2x.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		036DFACFD2FC2B3C9533E55D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage-iOS/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A39BE2E253C0AC8A09238F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KZ_WebImage_macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44D80D0C56AE41793C263C21 /* [CP] Check Pods Manifest.lock */ = {
+		F19FDF4E4878180666FDC26E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,70 +287,52 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C7C2B25507DBFFF5EAAB8382 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_WebImage_macOS/Pods-KZ_WebImage_macOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage-macOS/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_WebImage_macOS/Pods-KZ_WebImage_macOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AEC620AB209C1D1600DFC8B9 /* Sources */ = {
+		AEC6278320A009AA00DFC8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC620B6209C1D1600DFC8B9 /* ViewController.m in Sources */,
-				AEC620C1209C1D1600DFC8B9 /* main.m in Sources */,
-				AEC620B3209C1D1600DFC8B9 /* AppDelegate.m in Sources */,
+				AEC6278E20A009AA00DFC8B9 /* ViewController.m in Sources */,
+				AEC6279920A009AA00DFC8B9 /* main.m in Sources */,
+				AEC6278B20A009AA00DFC8B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEC620C5209C1D2000DFC8B9 /* Sources */ = {
+		AEC6279D20A009B500DFC8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC620D0209C1D2000DFC8B9 /* ViewController.m in Sources */,
-				AEC620D8209C1D2100DFC8B9 /* main.m in Sources */,
-				AEC620CD209C1D2000DFC8B9 /* AppDelegate.m in Sources */,
+				AEC627A820A009B500DFC8B9 /* ViewController.m in Sources */,
+				AEC627B020A009B600DFC8B9 /* main.m in Sources */,
+				AEC627A520A009B500DFC8B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEC620B7209C1D1600DFC8B9 /* Main.storyboard */ = {
+		AEC6278F20A009AA00DFC8B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEC620B8209C1D1600DFC8B9 /* Base */,
+				AEC6279020A009AA00DFC8B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AEC620BC209C1D1600DFC8B9 /* LaunchScreen.storyboard */ = {
+		AEC6279420A009AA00DFC8B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEC620BD209C1D1600DFC8B9 /* Base */,
+				AEC6279520A009AA00DFC8B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		AEC620D3209C1D2100DFC8B9 /* Main.storyboard */ = {
+		AEC627AB20A009B600DFC8B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEC620D4209C1D2100DFC8B9 /* Base */,
+				AEC627AC20A009B600DFC8B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -405,7 +340,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AEC620A6209C1CE700DFC8B9 /* Debug */ = {
+		AEC6277E20A009A100DFC8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -464,7 +399,7 @@
 			};
 			name = Debug;
 		};
-		AEC620A7209C1CE700DFC8B9 /* Release */ = {
+		AEC6277F20A009A100DFC8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -517,9 +452,9 @@
 			};
 			name = Release;
 		};
-		AEC620C2209C1D1600DFC8B9 /* Debug */ = {
+		AEC6279B20A009AA00DFC8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8750E95EB0078C0621C7F7EF /* Pods-KZ_WebImage_iOS.debug.xcconfig */;
+			baseConfigurationReference = 31B19B656286FB08B4F45B85 /* Pods-KZ_WebImage_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -541,9 +476,9 @@
 			};
 			name = Debug;
 		};
-		AEC620C3209C1D1600DFC8B9 /* Release */ = {
+		AEC6279C20A009AA00DFC8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD88D7C71E9C7E2194EDAC29 /* Pods-KZ_WebImage_iOS.release.xcconfig */;
+			baseConfigurationReference = E71E1FD8092DB1122C60B174 /* Pods-KZ_WebImage_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -565,9 +500,8 @@
 			};
 			name = Release;
 		};
-		AEC620DB209C1D2100DFC8B9 /* Debug */ = {
+		AEC627B320A009B600DFC8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4026020AB94226787BA9B8E7 /* Pods-KZ_WebImage_macOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KZ_WebImage_macOS/KZ_WebImage_macOS.entitlements;
@@ -585,21 +519,15 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					"\"SDWebImage\"",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-WebImage-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		AEC620DC209C1D2100DFC8B9 /* Release */ = {
+		AEC627B420A009B600DFC8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D963F4CE49DFAE5ACC6B493 /* Pods-KZ_WebImage_macOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KZ_WebImage_macOS/KZ_WebImage_macOS.entitlements;
@@ -617,12 +545,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					"\"SDWebImage\"",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-WebImage-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -632,34 +555,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEC6208D209C1CE600DFC8B9 /* Build configuration list for PBXProject "KZ_WebImage" */ = {
+		AEC6276520A009A000DFC8B9 /* Build configuration list for PBXProject "KZ_WebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEC620A6209C1CE700DFC8B9 /* Debug */,
-				AEC620A7209C1CE700DFC8B9 /* Release */,
+				AEC6277E20A009A100DFC8B9 /* Debug */,
+				AEC6277F20A009A100DFC8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEC620C4209C1D1600DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_iOS" */ = {
+		AEC6279A20A009AA00DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEC620C2209C1D1600DFC8B9 /* Debug */,
-				AEC620C3209C1D1600DFC8B9 /* Release */,
+				AEC6279B20A009AA00DFC8B9 /* Debug */,
+				AEC6279C20A009AA00DFC8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEC620DA209C1D2100DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_macOS" */ = {
+		AEC627B220A009B600DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_WebImage_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEC620DB209C1D2100DFC8B9 /* Debug */,
-				AEC620DC209C1D2100DFC8B9 /* Release */,
+				AEC627B320A009B600DFC8B9 /* Debug */,
+				AEC627B420A009B600DFC8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AEC6208A209C1CE600DFC8B9 /* Project object */;
+	rootObject = AEC6276220A009A000DFC8B9 /* Project object */;
 }
