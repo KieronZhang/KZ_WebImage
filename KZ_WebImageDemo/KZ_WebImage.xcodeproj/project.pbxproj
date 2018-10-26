@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B4433A68D74D59F8EA94968 /* Pods_KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2728EC67B00B29B11180918 /* Pods_KZ_WebImage_iOS.framework */; };
+		AE1969FD2182FA9100819040 /* KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1969FC2182FA9100819040 /* KZ_WebImage_iOS.framework */; };
+		AE1969FF2182FA9500819040 /* KZ_WebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1969FE2182FA9500819040 /* KZ_WebImage_macOS.framework */; };
 		AEC6278B20A009AA00DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6278A20A009AA00DFC8B9 /* AppDelegate.m */; };
 		AEC6278E20A009AA00DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6278D20A009AA00DFC8B9 /* ViewController.m */; };
 		AEC6279120A009AA00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC6278F20A009AA00DFC8B9 /* Main.storyboard */; };
@@ -21,12 +23,12 @@
 		AEC627B020A009B600DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC627AF20A009B600DFC8B9 /* main.m */; };
 		AEC627BC20A00AC800DFC8B9 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC627BB20A00AC700DFC8B9 /* niconiconi@2x.gif */; };
 		AEC627BE20A00ACD00DFC8B9 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEC627BD20A00ACD00DFC8B9 /* niconiconi@2x.gif */; };
-		AEF94DEC21784B560063EE69 /* KZ_WebImage_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DEB21784B560063EE69 /* KZ_WebImage_iOS.framework */; };
-		AEF94DEE21784B590063EE69 /* KZ_WebImage_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DED21784B590063EE69 /* KZ_WebImage_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31B19B656286FB08B4F45B85 /* Pods-KZ_WebImage_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1969FC2182FA9100819040 /* KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_iOS.framework; sourceTree = "<group>"; };
+		AE1969FE2182FA9500819040 /* KZ_WebImage_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_macOS.framework; sourceTree = "<group>"; };
 		AEC6278720A009AA00DFC8B9 /* KZ_WebImage_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_WebImage_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC6278920A009AA00DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC6278A20A009AA00DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,8 +51,6 @@
 		AEC627B120A009B600DFC8B9 /* KZ_WebImage_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_WebImage_macOS.entitlements; sourceTree = "<group>"; };
 		AEC627BB20A00AC700DFC8B9 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
 		AEC627BD20A00ACD00DFC8B9 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
-		AEF94DEB21784B560063EE69 /* KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_iOS.framework; sourceTree = "<group>"; };
-		AEF94DED21784B590063EE69 /* KZ_WebImage_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_WebImage_macOS.framework; sourceTree = "<group>"; };
 		D2728EC67B00B29B11180918 /* Pods_KZ_WebImage_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_WebImage_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71E1FD8092DB1122C60B174 /* Pods-KZ_WebImage_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_WebImage_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_WebImage_iOS/Pods-KZ_WebImage_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94DEC21784B560063EE69 /* KZ_WebImage_iOS.framework in Frameworks */,
+				AE1969FD2182FA9100819040 /* KZ_WebImage_iOS.framework in Frameworks */,
 				2B4433A68D74D59F8EA94968 /* Pods_KZ_WebImage_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94DEE21784B590063EE69 /* KZ_WebImage_macOS.framework in Frameworks */,
+				AE1969FF2182FA9500819040 /* KZ_WebImage_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 		AEC627B520A00ABB00DFC8B9 /* WebImage */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94DEB21784B560063EE69 /* KZ_WebImage_iOS.framework */,
+				AE1969FC2182FA9100819040 /* KZ_WebImage_iOS.framework */,
 			);
 			path = WebImage;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 		AEC627B820A00AC100DFC8B9 /* WebImage */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94DED21784B590063EE69 /* KZ_WebImage_macOS.framework */,
+				AE1969FE2182FA9500819040 /* KZ_WebImage_macOS.framework */,
 			);
 			path = WebImage;
 			sourceTree = "<group>";
